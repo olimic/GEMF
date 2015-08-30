@@ -1,9 +1,13 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEMF", "GEMF\GEMF.csproj", "{2042D8BB-2342-48AD-AC20-9A0FBA1D7A4D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEMFExporter", "GEMFExporter\GEMFExporter.csproj", "{4AD736D0-8D19-4082-AFCF-1AC4D3E7E395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEMFCreator", "GEMFCreator\GEMFCreator.csproj", "{8103E472-4117-4191-AF84-67F7EE625B14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,16 @@ Global
 		{4AD736D0-8D19-4082-AFCF-1AC4D3E7E395}.Release|Mixed Platforms.Build.0 = Release|x86
 		{4AD736D0-8D19-4082-AFCF-1AC4D3E7E395}.Release|x86.ActiveCfg = Release|x86
 		{4AD736D0-8D19-4082-AFCF-1AC4D3E7E395}.Release|x86.Build.0 = Release|x86
+		{8103E472-4117-4191-AF84-67F7EE625B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8103E472-4117-4191-AF84-67F7EE625B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8103E472-4117-4191-AF84-67F7EE625B14}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{8103E472-4117-4191-AF84-67F7EE625B14}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{8103E472-4117-4191-AF84-67F7EE625B14}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8103E472-4117-4191-AF84-67F7EE625B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8103E472-4117-4191-AF84-67F7EE625B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8103E472-4117-4191-AF84-67F7EE625B14}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{8103E472-4117-4191-AF84-67F7EE625B14}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{8103E472-4117-4191-AF84-67F7EE625B14}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
