@@ -46,8 +46,8 @@ namespace GEMF
                     throw new Exception("GEMF.ReadHeader: wrong version of file");
 
                 UInt32 tile_size = ReadUInt32(in_stream);
-                if (tile_size != 256)
-                    throw new Exception("GEMF.ReadHeader: only tile size 256 is supported");
+                //if (tile_size != 256)
+                //    throw new Exception("GEMF.ReadHeader: only tile size 256 is supported");
 
                 // Sources
                 UInt32 num_sources = ReadUInt32(in_stream);

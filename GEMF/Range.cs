@@ -11,6 +11,7 @@ namespace GEMF
         public UInt32 YMax;
         public UInt32 SourceIndex;
         public UInt64 Offset;
+        public bool IsInitialized = false;
 
         public bool IsInRange(uint zoom, uint x, uint y)
         {
@@ -20,6 +21,28 @@ namespace GEMF
                 YMin <= y && YMax >= y)
                 return true;
             return false;
+        }
+
+        public void Expand(uint x, uint y)
+        {
+            if (!IsInitialized)
+            {
+                XMin = XMax = x;
+                YMin = YMax = y;
+                IsInitialized = true;
+            }
+            else
+            {
+                if (x < XMin)
+                    XMin = x;
+                else if (x > XMax)
+                    XMax = x;
+
+                if (y < YMin)
+                    YMin = y;
+                else if (y > YMax)
+                    YMax = y;
+            }
         }
     }
 }
